@@ -43,4 +43,4 @@ async function getData(){
     return foodData;
 }
 
-app.listen(4999, console.log(4999));
+app.listen(process.env.PORT || 4000);
