@@ -2,21 +2,28 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const express = require('express');
 const cors = require('cors');
+const urls = ['https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l=undefined','https://webmenu.foodit.se/?r=13&m=1380&p=787&c=10118&w=0&v=Week&l=undefined'];
 
 const app = express();
-app.use(cors());
 
-app.get('/', async (req, res) => {
-    await getData().then(response => {
+app.use(cors());
+// /0/0 = kattegatt current week
+// /0/1 = kattegatt next week
+// /1/0 = sannarp current
+app.get('/:id/:week', async (req, res) => {
+    const id = req.params.id;
+    const week = req.params.week;
+    if (id > urls.length-1) return res.status(404).send("School not found") ;
+    const preUrl = urls[req.params.id];
+    const url = preUrl.replace('w=0', `w=${week}`);
+    await getData(url).then(response => {
         res.send(response);
     }).catch(err => {
-        res.send(err);
+        res.status(500).send(err);
     })
 });
 
-const url = 'https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l=undefined';
-
-async function getData() {
+async function getData(url) {
     const foodData = [];
     await axios(url).then(response => {
         const html = response.data;
