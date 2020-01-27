@@ -11,7 +11,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node index.js"
   },
   "repository": {
     "type": "git",
