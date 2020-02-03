@@ -6,7 +6,7 @@ const urls = ['https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l
 
 const app = express();
 
-app.use(cors());
+app.use(cors({origin: "https://Matsedlar.se"}));
 // /0/0 = kattegatt current week
 // /0/1 = kattegatt next week
 // /1/0 = sannarp current
