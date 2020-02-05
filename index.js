@@ -8,6 +8,11 @@ const app = express();
 let requests = 0;
 
 app.use(cors({origin: "https://Matsedlar.se"}));
+
+app.get('/count', (req,res)=>{
+    res.status(200).json({'requests': requests});
+});
+
 // /0/0 = kattegatt current week
 // /0/1 = kattegatt next week
 // /1/0 = sannarp current
@@ -25,9 +30,6 @@ app.get('/:id/:week', async (req, res) => {
     })
 });
 
-app.get('/requestCount', (req,res)=>{
-    res.send(requests);
-});
 
 async function getData(url) {
     const foodData = [];
