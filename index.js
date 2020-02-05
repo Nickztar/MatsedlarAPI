@@ -5,6 +5,7 @@ const cors = require('cors');
 const urls = ['https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l=undefined','https://webmenu.foodit.se/?r=13&m=1380&p=787&c=10118&w=0&v=Week&l=undefined'];
 
 const app = express();
+let requests = 0;
 
 app.use(cors({origin: "https://Matsedlar.se"}));
 // /0/0 = kattegatt current week
@@ -17,10 +18,15 @@ app.get('/:id/:week', async (req, res) => {
     const preUrl = urls[req.params.id];
     const url = preUrl.replace('w=0', `w=${week}`);
     await getData(url).then(response => {
+        requests++;
         res.send(response);
     }).catch(err => {
         res.status(500).send(err);
     })
+});
+
+app.get('/requestCount', (req,res)=>{
+    res.send(requests);
 });
 
 async function getData(url) {
