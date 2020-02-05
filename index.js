@@ -7,7 +7,7 @@ const urls = ['https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l
 const app = express();
 let requests = 0;
 
-app.use(cors({origin: "https://Matsedlar.se"}));
+app.use(cors());
 
 app.get('/count', (req,res)=>{
     res.status(200).json({'requests': requests});
