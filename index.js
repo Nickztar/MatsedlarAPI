@@ -8,7 +8,7 @@ const urls = mapSkola(matData.skolor);
 const app = express();
 
 app.use(cors());
-//?schools=SEARCH PARAM
+//?school=SEARCH PARAM
 app.get('/schools', (req,res)=>{
     const schools = formatSchool(matData);
     if (req.query.school){
