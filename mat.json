@@ -1,0 +1,583 @@
+{
+	"skolor": [
+		{
+			"namn": "Kattegatts matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Sannarps matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=787&c=10118&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Förskola Avesta kommun",
+			"url": "https://webmenu.foodit.se/?r=20&m=2084&p=1193&c=10157&w=-2&v=Week&l=undefined&kioskmode=false"
+		},
+		{
+			"namn": "Grundskola Avesta kommun",
+			"url": "https://webmenu.foodit.se/?r=20&m=2084&p=1193&c=10158&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Gymnasiet Avesta kommun",
+			"url": "https://webmenu.foodit.se/?r=20&m=2084&p=1193&c=10159&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Borlänge kommun Förskola/skola",
+			"url": "https://webmenu.foodit.se/?r=20&m=2081&p=1216&c=10619&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hälsinggårdsskolan matsal",
+			"url": "https://webmenu.foodit.se/?r=20&m=2080&p=1283&c=10696&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hälsingsgårdsskolan Meny 1 förskola/skola",
+			"url": "https://webmenu.foodit.se/?r=20&m=2080&p=1283&c=10692&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hälsingsgårdsskolan Meny 2 förskola/skola",
+			"url": "https://webmenu.foodit.se/?r=20&m=2080&p=1283&c=10693&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Gagnef matsedel",
+			"url": "https://webmenu.foodit.se/?r=20&m=2026&p=1287&c=10001&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bergsjö skola/förskola",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1358&c=10046&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hagängsgården lunchbaren",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1365&c=10051&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Ilsbo skola/förskola",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1360&c=10043&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lönnberg skola",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1361&c=10055&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hassela skola/förskola",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1362&c=10054&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Gnarp skola/förskola",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1363&c=10044&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Sörgården Lunchbaren",
+			"url": "https://webmenu.foodit.se/?r=21&m=2132&p=1364&c=10052&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Askens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=960&c=10222&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Brearedsskolans matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=858&c=10167&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Brunnsåkers matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=769&c=10090&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Dragonens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=966&c=10229&w=0&v=Week&l=undefined"
+		}, {
+			"namn": "Eldsberga matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=774&c=10091&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Frösakulls fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1262&c=10317&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Furets fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=953&c=10215&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Furulunds matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=775&c=10097&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Dungens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=772&c=10344&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Fyllinges matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=772&c=10095&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Granitens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=772&c=10218&w=0&v=Week&l=undefined"
+		}, {
+			"namn": "Getinges matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=784&c=10111&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Gäddans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=984&c=10230&w=0&v=Week&l=undefined"
+		},
+		{
+
+			"namn": "Harplinge fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1185&c=10311&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Jutarums fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=977&c=10241&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Karlso fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=985&c=10248&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bäckagårds fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10184&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bäckagårdskolans matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10121&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Centrumskolans matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10315&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Jutarums matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10122&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lummeskolans matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10314&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Klaraskolans restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1280&c=10320&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Källviks fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=968&c=10232&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kärlekens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=978&c=10242&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Laxöns fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=971&c=10236&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Linneheds fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1406&c=10335&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Frösakullsskolan",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=861&c=10174&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lokes matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=861&c=10173&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lundsgårds fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=963&c=10226&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lärkans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=962&c=10225&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Nyhemsskolans matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=779&c=10104&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Oskarströms fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=959&c=10221&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Gullbrandstorps matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10110&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kyrkbackens förskola",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10250&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lyngåkra restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10109&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Plönningeskolans matal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10251&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Skipås fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10198&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Steninge fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1020&c=10199&w=0&v=Week&l=undefined"
+		},
+
+		{
+			"namn": "Ringblommans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=969&c=10234&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Rännbackens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=949&c=10212&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kristineheds gymnasiet",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=787&c=10338&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Slottsjord Södras matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=1350&c=10325&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Smörblommans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=970&c=10235&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Sofiebergs hemvister",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=785&c=10114&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stenstorps matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=785&c=10115&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Engelbrekts förskola",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=788&c=10207&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stures matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=788&c=10119&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Söndrum F-4 matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=786&c=10117&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bergsgårds förskola",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=771&c=1402&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Klockargårds fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=771&c=10331&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Söndrums matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=771&c=10094&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Teknikförskolans restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=986&c=10249&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Trollbergets fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=976&c=10240&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Trönninges matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=773&c=10096&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Tuvans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=955&c=10217&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Valhallas matal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=818&c=10106&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Brogårds fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=778&c=10195&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kammerlyckans fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=778&c=10196&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Strandvallens fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=778&c=10292&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Vallgårdens fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=778&c=10211&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Vallåshögs matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=778&c=10102&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Vitsippans fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=975&c=10239&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Vrenninge fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=958&c=10220&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Västanvindens fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=954&c=10216&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Växthusets fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=946&c=10209&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åleds fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=961&c=10224&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åleds matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=777&c=10092&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Andersbergs matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=776&c=10099&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Andersbergsringens fsk",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=776&c=10192&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lineheds matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=776&c=10100&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Snöstorps matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=776&c=10101&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Östergårds matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=776&c=10098&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Österleds matsal",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=780&c=10105&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Österängs fsk restaurang",
+			"url": "https://webmenu.foodit.se/?r=13&m=1380&p=965&c=10228&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Örnaskolan Skola & Förskola",
+			"url": "https://webmenu.foodit.se/?r=13&m=1315&p=311&c=10082&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Ankaret FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=881&c=10052&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bäckalyckan FSK kök",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=1121&c=1121&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bäckaskolan F-6",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=882&c=10041&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Solrosen FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=882&c=10065&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åviken FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=882&c=10055&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åvikenskolan",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=882&c=10020&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hillerstorpsköket Ekorren",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=879&c=10024&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hillerstorpsköket Fjärilen",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=879&c=10027&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hillerstorp F-9",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=879&c=10042&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kluringen FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=886&c=10047&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bokskogen",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=880&c=10044&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Kullturpskolan F-6",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=880&c=10043&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lingonet FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=885&c=10045&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Regnbågen FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=885&c=10046&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Bäckskolan högstadiet",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=883&c=10023&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Rosendal GKC",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=883&c=10040&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åsenhöga F-6",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=884&c=10054&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åsenhöga FSK",
+			"url": "https://webmenu.foodit.se/?r=6&m=617&p=884&c=10053&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Fritids Bjärnumsområdet",
+			"url": "https://webmenu.foodit.se/?r=12&m=1293&p=584&c=10177&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Förskola Bjärnumsområdet",
+			"url": "https://webmenu.foodit.se/?r=12&m=1293&p=584&c=10178&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Grundskola Bjärnumsområdet",
+			"url": "https://webmenu.foodit.se/?r=12&m=1293&p=584&c=10147&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Höganäs Förskola",
+			"url": "https://webmenu.foodit.se/?r=12&m=1284&p=987&c=10060&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Höganäs Skola",
+			"url": "https://webmenu.foodit.se/?r=12&m=1284&p=987&c=10059&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Blåsut förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1100&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Dalen förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1101&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Enskede Gård förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1102&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Hagsätra förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1103&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Högdalen förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1104&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Rågsved förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1105&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Snösätra förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1107&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Stureby förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1108&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Årsta 2 förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1109&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Årsta 3 förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1110&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Örby förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1111&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Stockholm Östberga förskolor",
+			"url": "https://webmenu.foodit.se/?r=1&m=180&p=1035&c=1112&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Tierp Förskolor",
+			"url": "https://webmenu.foodit.se/?r=3&m=360&p=580&c=10110&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Tierp Skolor",
+			"url": "https://webmenu.foodit.se/?r=3&m=360&p=580&c=10169&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Älvkarleby Förskolor",
+			"url": "https://webmenu.foodit.se/?r=3&m=319&p=702&c=10024&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Älvkarleby Skolor",
+			"url": "https://webmenu.foodit.se/?r=3&m=319&p=702&c=10023&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "DEK Förskola Skolmatsedel",
+			"url": "https://webmenu.foodit.se/?r=14&m=1438&p=1184&c=10025&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "DEK Skolmatsedel",
+			"url": "https://webmenu.foodit.se/?r=14&m=1438&p=822&c=10025&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åmål Slolmatsedel Grundskola",
+			"url": "https://webmenu.foodit.se/?r=14&m=1492&p=801&c=10027&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Åmål Skolmatsedel Gymnasium",
+			"url": "https://webmenu.foodit.se/?r=14&m=1492&p=801&c=10072&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Öckerö förskolor & F-6 skolor",
+			"url": "https://webmenu.foodit.se/?r=14&m=1407&p=508&c=10073&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Öckerö skolor Heden & Bratteberg",
+			"url": "https://webmenu.foodit.se/?r=14&m=1407&p=508&c=10074&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Ekbackens skolrestaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1118&c=10075&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Ekgårdens matlådor",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1029&c=10084&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Frövi skolrestaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1030&c=10079&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Hagabackens skolrestaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1115&c=10081&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lindeskolans mottagningsskolor",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1025&c=10076&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Lindeskolans skolrestaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1025&c=10077&w=0&v=Week&l=undefined"
+		}, {
+			"namn": "Stadsskogsskolans restaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1026&c=10082&w=0&v=Week&l=undefined"
+		},
+		{
+			"namn": "Storåskolans restaurang",
+			"url": "https://webmenu.foodit.se/?r=18&m=1885&p=1031&c=10083&w=0&v=Week&l=undefined"
+		}
+	]
+}

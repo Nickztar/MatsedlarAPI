@@ -2,28 +2,29 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const express = require('express');
 const cors = require('cors');
-const urls = ['https://webmenu.foodit.se/?r=13&m=1380&p=789&c=10120&w=0&v=Week&l=undefined','https://webmenu.foodit.se/?r=13&m=1380&p=787&c=10118&w=0&v=Week&l=undefined'];
+const matData = require('./mat.json');
+const urls = mapSkola(matData.skolor);
 
 const app = express();
-let requests = 0;
 
 app.use(cors());
-
-app.get('/count', (req,res)=>{
-    res.status(200).json({'requests': requests});
+//?schools=SEARCH PARAM
+app.get('/schools', (req,res)=>{
+    const schools = formatSchool(matData);
+    if (req.query.school){
+        res.send(findSchools(req.query.school.toLowerCase(), schools));
+    }else{
+        res.status(200).json(schools);
+    }
 });
 
-// /0/0 = kattegatt current week
-// /0/1 = kattegatt next week
-// /1/0 = sannarp current
 app.get('/:id/:week', async (req, res) => {
-    const id = req.params.id;
+    const id = parseInt(req.params.id);
     const week = req.params.week;
-    if (id > urls.length-1) return res.status(404).send("School not found") ;
-    const preUrl = urls[req.params.id];
+    if (id > urls.size) return res.status(404).send("School not found") ;
+    const preUrl = urls.get(id).url;
     const url = preUrl.replace('w=0', `w=${week}`);
     await getData(url).then(response => {
-        requests++;
         res.send(response);
     }).catch(err => {
         res.status(500).send(err);
@@ -56,6 +57,29 @@ async function getData(url) {
         console.log(err);
     })
     return foodData;
+}
+
+function mapSkola(skolor){
+    const urlMap = new Map();
+    skolor.map((skola, index) => {
+        urlMap.set(index, skola);
+    });
+    return urlMap;
+}
+function formatSchool(data){
+    const skola = data.skolor.map((skola, index) => {
+        return {value: index, label: skola.namn};
+    });
+    return skola;
+}
+function findSchools(name, schools){
+    const match = schools.filter(skola => {
+        const label = skola.label.toLowerCase();
+        if(label.includes(name)){
+            return skola;
+        };
+    });
+    return match;
 }
 
 app.listen(process.env.PORT || 4000, console.log('working'));
