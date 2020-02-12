@@ -4,13 +4,13 @@ const express = require('express');
 const cors = require('cors');
 const matData = require('./mat.json');
 const urls = mapSkola(matData.skolor);
+const schools = formatSchool(matData);
 
 const app = express();
 
 app.use(cors());
 //?school=SEARCH PARAM
 app.get('/schools', (req,res)=>{
-    const schools = formatSchool(matData);
     if (req.query.school){
         res.send(findSchools(req.query.school.toLowerCase(), schools));
     }else{
