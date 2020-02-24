@@ -10,8 +10,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nickztar/MatsedlarAPI.git"

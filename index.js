@@ -7,17 +7,28 @@ const urls = mapSkola(matData.skolor);
 const schools = formatSchool(matData);
 
 const app = express();
-
 app.use(cors());
+app.use(express.json());
+
 //?school=SEARCH PARAM
 app.get('/schools', (req,res)=>{
     if (req.query.school){
-        res.send(findSchools(req.query.school.toLowerCase(), schools));
+        res.send(findSchools(req.query.school.toLowerCase()));
     }else{
         res.status(200).json(schools);
     }
 });
-
+app.post('/schools', (req, res) => {
+    const names = req.body.names;
+    const validSchools = [];
+    names.forEach(name => {
+        const schools = findSchools(name.toLowerCase())[0]
+        if (schools){
+            validSchools.push(schools)
+        }
+    });
+    res.status(200).json(validSchools);
+})
 app.get('/:id/:week', async (req, res) => {
     const id = parseInt(req.params.id);
     const week = req.params.week;
@@ -72,7 +83,7 @@ function formatSchool(data){
     });
     return skola;
 }
-function findSchools(name, schools){
+function findSchools(name){
     const match = schools.filter(skola => {
         const label = skola.label.toLowerCase();
         if(label.includes(name)){
